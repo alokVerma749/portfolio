@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap");
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.line {
+  height: 2px;
+  width: 60%;
+  background-color: black;
+  margin: 0 auto;
+}
+
+header {
+  color: #dbdfe7;
+  height: 10vh;
+  background-color: rgba(46, 56, 95);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border-bottom: 2px solid #bcbdbf; */
+}
+
+nav {
+  width: 30%;
+  font-weight: 600;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+header nav ul a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+}
+header nav ul select {
+  background-color: rgb(46, 56, 95);
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 600;
+}
+header nav ul select option {
+  background-color: rgb(46, 56, 95);
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 500;
+}
+.hero-section {
+  height: 90vh;
+  background-color: rgb(46, 56, 95);
+  color: #dbdfe7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.hero-section .right {
+  width: 40vw;
+  height: 70vh;
+}
+.hero-section .right .socials {
+  width: 40%;
+  margin: 5vh auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-section .right h1 {
+  font-size: 3em;
+  margin: 5vh;
+}
+.hero-section .right p {
+  margin: 5vh;
+}
+.hero-section .img-container {
+  width: 30vw;
+  height: 80vh;
+  background: url("./assets/yash-mevawala-P43ZFLGgH38-unsplash.jpg") no-repeat
+    center center;
+  background-size: cover;
+}
+.hero-section .buttons {
+  width: fit-content;
+  margin: 0 auto;
+}
+.btn {
+  padding: 5px;
+  font-size: 1.5em;
+  font-weight: 700;
+  border: none;
+}
+.github-btn {
+  background-color: #171515;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.btn i {
+  padding: 0 5px;
+}
+.github-btn:hover {
+  cursor: pointer;
+  color: #171515;
+  background-color: #ffffff;
+  border: 1px solid #171515;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.live-btn:hover {
+  color: #ffffff;
+  border: 1px solid #171515;
+  background-color: #34ab22;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+.heading {
+  text-align: center;
+  margin: 10px;
+  font-size: 5vw;
+}
+
+.cards {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.card {
+  background-color: rgb(46, 56, 95);
+  color: #dbdfe7;
+  /* border: 2px solid green; */
+  width: 22%;
+  box-shadow: 10px 10px 25px 10px #353538ab;
+}
+.card:hover {
+  box-shadow: 1px 1px 10px 10px #353538ab;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.card .project-thumbnail {
+  /* border: 2px solid red; */
+  height: 25vh;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.card .text {
+  margin: 20px 5px;
+}
+.card .text h4 {
+  font-weight: 700;
+  margin: 20px 0;
+}
+.card .text p {
+  font-size: 0.9em;
+}
+.card .buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+.card .buttons button {
+  margin: 5px 0;
+}
+.card .project-thumbnail img {
+  width: 22vw;
+}
+footer {
+  background-color: rgb(46, 56, 95);
+  padding: 20px;
+}
+footer p {
+  text-align: center;
+  color: #ffffff;
+}
