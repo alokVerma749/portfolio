@@ -143,6 +143,7 @@ header nav ul select option {
   transition: 0.5s;
 }
 .card:hover {
+  background-color: rgba(46, 56, 95, 0.852);
   box-shadow: rgba(0, 0, 0, 0.706) 10px 10px 25px;
   transition-duration: 0.5s;
   transition-timing-function: linear;
